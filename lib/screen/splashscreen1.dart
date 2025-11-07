@@ -42,7 +42,7 @@ class Splashscreen1 extends StatelessWidget {
             ),
             Text(
               textAlign: TextAlign.center,
-              'Forget to bring your wallet \n while you are shopping',
+              'Forget to bring your wallet \n while you are shopping?',
               style: TextStyle(
                 fontSize: 10.0,
                 color: Colors.deepPurple,
