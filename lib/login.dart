@@ -56,7 +56,7 @@ class Login extends StatelessWidget {
                     ),
                     focusedBorder: OutlineInputBorder(
                       borderSide: BorderSide(
-                        color: const Color.fromARGB(255, 124, 23, 23),
+                        color: Color.fromARGB(255, 124, 23, 23),
                         width: 2.0,
                       ),
                       borderRadius: BorderRadius.all(Radius.circular(12.0)),
@@ -65,12 +65,23 @@ class Login extends StatelessWidget {
                 ),
                 SizedBox(height: 30.0),
                 TextField(
+                  obscureText: true,
                   decoration: InputDecoration(
                     labelText: 'Password',
                     hintText: 'Masukkan password anda',
                     prefixIcon: Icon(Icons.lock_outlined),
                     suffixIcon: Icon(Icons.visibility_outlined),
                     border: OutlineInputBorder(
+                      borderRadius: BorderRadius.all(Radius.circular(12.0)),
+                    ),
+                    enabledBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.grey),
+                      borderRadius: BorderRadius.all(Radius.circular(12.0)),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(
+                        color: Color.fromARGB(255, 124, 23, 23),
+                      ),
                       borderRadius: BorderRadius.all(Radius.circular(12.0)),
                     ),
                   ),
