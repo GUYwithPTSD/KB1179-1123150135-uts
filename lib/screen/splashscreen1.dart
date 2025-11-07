@@ -19,6 +19,14 @@ class Splashscreen1 extends StatelessWidget {
                 color: Colors.pinkAccent,
               ),
             ),
+            Text(
+              'Welcome',
+              style: TextStyle(
+                fontSize: 30,
+                color: Colors.black,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
           ],
         ),
       ),
