@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Splashscreen2 extends StatelessWidget {
-  const Splashscreen2({super.key});
+class Splashscreen3 extends StatelessWidget {
+  const Splashscreen3({super.key});
 
   @override
   Widget build(BuildContext context) {
