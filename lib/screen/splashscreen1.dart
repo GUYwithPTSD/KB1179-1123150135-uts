@@ -28,12 +28,44 @@ class Splashscreen1 extends StatelessWidget {
               ),
             ),
             Text(
-              'Forget your wallet \n while shopping',
+              'Forget to bring your wallet \n while you are shopping',
               style: TextStyle(
                 fontSize: 10.0,
                 color: Colors.deepPurple,
                 fontWeight: FontWeight.normal,
               ),
+            ),
+            SizedBox(height: 10.0),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
+                  height: 5,
+                  width: 5,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.grey[700],
+                  ),
+                ),
+                SizedBox(width: 3.0),
+                Container(
+                  height: 5,
+                  width: 5,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.grey[700],
+                  ),
+                ),
+                SizedBox(width: 3.0),
+                Container(
+                  height: 5,
+                  width: 5,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.grey[700],
+                  ),
+                ),
+              ],
             ),
           ],
         ),
