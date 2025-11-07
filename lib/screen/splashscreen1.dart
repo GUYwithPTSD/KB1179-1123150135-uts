@@ -94,7 +94,11 @@ class Splashscreen1 extends StatelessWidget {
                   ),
                   child: Text(
                     'Continue',
-                    style: TextStyle(fontSize: 15.0, color: Colors.white),
+                    style: TextStyle(
+                      fontSize: 15.0,
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                 ),
               ),

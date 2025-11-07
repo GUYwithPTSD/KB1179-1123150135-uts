@@ -27,7 +27,7 @@ class Splashscreen3 extends StatelessWidget {
                 shape: BoxShape.circle,
                 color: Colors.grey,
                 image: DecorationImage(
-                  image: AssetImage("../assets/images/profile2.jpeg"),
+                  image: AssetImage("../assets/images/profile3.jpeg"),
                   fit: BoxFit.cover,
                 ),
               ),
@@ -42,7 +42,7 @@ class Splashscreen3 extends StatelessWidget {
             ),
             Text(
               textAlign: TextAlign.center,
-              'Dont worry! we got you cover \n use X-wallet instead of cash!',
+              'Lets try X-wallet now! \n and get the BEST solution!',
               style: TextStyle(
                 fontSize: 10.0,
                 color: Colors.deepPurple,
@@ -93,8 +93,12 @@ class Splashscreen3 extends StatelessWidget {
                     backgroundColor: Colors.pinkAccent,
                   ),
                   child: Text(
-                    'Continue',
-                    style: TextStyle(fontSize: 15.0, color: Colors.white),
+                    'Get Started',
+                    style: TextStyle(
+                      fontSize: 15.0,
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                 ),
               ),
