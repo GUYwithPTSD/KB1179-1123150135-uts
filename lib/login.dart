@@ -11,11 +11,19 @@ class Login extends StatelessWidget {
           child: Container(
             margin: EdgeInsets.only(left: 20.0, right: 20.0),
             padding: const EdgeInsets.all(20.0),
-            color: Colors.pink,
             child: Column(
               children: [
                 SizedBox(height: 10.0),
                 Icon(Icons.lock_outline_sharp, size: 50, color: Colors.pink),
+                SizedBox(height: 10.0),
+                Text(
+                  'Selamat Datang!',
+                  style: TextStyle(
+                    fontSize: 30,
+                    color: Colors.black,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
               ],
             ),
           ),
