@@ -16,7 +16,7 @@ class Splashscreen1 extends StatelessWidget {
               height: 200,
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
-                color: Colors.pinkAccent,
+                color: Colors.grey,
               ),
             ),
             Text(
@@ -28,6 +28,7 @@ class Splashscreen1 extends StatelessWidget {
               ),
             ),
             Text(
+              textAlign: TextAlign.center,
               'Forget to bring your wallet \n while you are shopping',
               style: TextStyle(
                 fontSize: 10.0,
@@ -76,7 +77,7 @@ class Splashscreen1 extends StatelessWidget {
                 child: ElevatedButton(
                   onPressed: () {},
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.redAccent,
+                    backgroundColor: Colors.pinkAccent,
                   ),
                   child: Text(
                     'Continue',
