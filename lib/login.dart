@@ -6,6 +6,14 @@ class Login extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      bottomNavigationBar: Padding(
+        padding: const EdgeInsets.all(10.0),
+        child: Text(
+          "Made by : Ivan (1123150135)",
+          textAlign: TextAlign.center,
+          style: TextStyle(fontSize: 12, color: Colors.grey),
+        ),
+      ),
       body: Center(
         child: SingleChildScrollView(
           child: Container(
@@ -22,6 +30,26 @@ class Login extends StatelessWidget {
                     fontSize: 30,
                     color: Colors.black,
                     fontWeight: FontWeight.bold,
+                  ),
+                ),
+                Text(
+                  "Silahkan login untuk melanjutkan",
+                  style: TextStyle(
+                    fontSize: 10.0,
+                    color: Colors.black,
+                    fontWeight: FontWeight.normal,
+                  ),
+                ),
+                SizedBox(height: 40.0),
+                TextField(
+                  keyboardType: TextInputType.emailAddress,
+                  decoration: InputDecoration(
+                    labelText: 'Email',
+                    hintText: 'Masukkan email anda',
+                    prefixIcon: Icon(Icons.email_outlined),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.all(Radius.circular(12.0)),
+                    ),
                   ),
                 ),
               ],
