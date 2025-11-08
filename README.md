@@ -12,31 +12,29 @@ A new Flutter project.
 
 ## Dokumentasi
 
-### Tampilan Aplikasi (Grid 2×2 dengan Label)
+Berikut tampilan Splashscreen1:
 
-<p align="center">
-  <figure style="display:inline-block; margin: 10px;">
-    <img src="assets/readme-doc/splashscreen1.png" width="250" />
-    <figcaption align="center">Splashscreen 1</figcaption>
-  </figure>
+![Tampilan splashscreen1 dalam versi mobile](assets/readme-doc/splashscreen1.png)
 
-  <figure style="display:inline-block; margin: 10px;">
-    <img src="assets/readme-doc/splashscreen2.png" width="250" />
-    <figcaption align="center">Splashscreen 2</figcaption>
-  </figure>
-</p>
+---
 
-<p align="center">
-  <figure style="display:inline-block; margin: 10px;">
-    <img src="assets/readme-doc/splashscreen3.png" width="250" />
-    <figcaption align="center">Splashscreen 3</figcaption>
-  </figure>
+Berikut tampilan Splashscreen2:
 
-  <figure style="display:inline-block; margin: 10px;">
-    <img src="assets/readme-doc/loginpage.png" width="250" />
-    <figcaption align="center">Login Page</figcaption>
-  </figure>
-</p>
+![Tampilan splashscreen1 dalam versi mobile](assets/readme-doc/splashscreen2.png)
+
+---
+
+Berikut tampilan Splashscreen3:
+
+![Tampilan splashscreen1 dalam versi mobile](assets/readme-doc/splashscreen3.png)
+
+---
+
+Berikut tampilan login page:
+
+![Tampilan splashscreen1 dalam versi mobile](assets/readme-doc/loginpage.png)
+
+---
 
 This project is a starting point for a Flutter application.
 
