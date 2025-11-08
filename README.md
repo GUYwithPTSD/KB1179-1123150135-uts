@@ -1,6 +1,12 @@
 # uts_1123150135_ivan
 
 A new Flutter project.
+NIM : 1123150135
+NAMA : Ivan Darma Saputra
+KELAS : TI-SE-23M
+
+DOKUENTASI
+![tampilan splashscreen1 dalam versi mobile](assets/readme-doc/splashscreen1.png)
 
 ## Getting Started
 
