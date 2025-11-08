@@ -4,12 +4,19 @@ A new Flutter project.
 
 ## Getting Started
 
-NIM : 1123150135
-NAMA : Ivan Darma Saputra
-KELAS : TI-SE-23M
+**NIM:** 1123150135  
+**Nama:** Ivan Darma Saputra  
+**Kelas:** TI-SE-23M
 
-DOKUENTASI
-![tampilan splashscreen1 dalam versi mobile](assets/readme-doc/splashscreen1.png)
+---
+
+## Dokumentasi
+
+Berikut tampilan Splashscreen:
+
+![Tampilan splashscreen1 dalam versi mobile](assets/readme-doc/splashscreen1.png)
+
+---
 
 This project is a starting point for a Flutter application.
 
