@@ -12,7 +12,7 @@ A new Flutter project.
 
 ## cara menjalankan flutter
 
-**terminal:** dengan menggunakan perintah "flutter run", lalu pilih chrome, emulator,atau langsung dari HP
+**terminal:** dengan menggunakan perintah "flutter run", lalu pilih chrome, emulator,atau langsung dari HP  
 **vscode:** dengan metode run and debug, lalu pilih chrome, emulator,atau langsung dari HP
 
 ---
